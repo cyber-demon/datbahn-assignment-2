@@ -66,9 +66,9 @@ export function getAvailableSources(
   selectedPlanes: string[]
 ): string[] {
   if (selectedPlanes.length === 0) {
-    return [...new Set(pipelines.map((p) => p.source))].sort();
+    return Array.from(new Set(pipelines.map((p) => p.source))).sort();
   }
-  return [...new Set(pipelines.filter((p) => selectedPlanes.includes(p.data_plane)).map((p) => p.source))].sort();
+  return Array.from(new Set(pipelines.filter((p) => selectedPlanes.includes(p.data_plane)).map((p) => p.source))).sort();
 }
 
 export function getAvailableDestinations(
@@ -76,7 +76,7 @@ export function getAvailableDestinations(
   selectedPlanes: string[]
 ): string[] {
   if (selectedPlanes.length === 0) {
-    return [...new Set(pipelines.map((p) => p.destination))].sort();
+    return Array.from(new Set(pipelines.map((p) => p.destination))).sort();
   }
-  return [...new Set(pipelines.filter((p) => selectedPlanes.includes(p.data_plane)).map((p) => p.destination))].sort();
+  return Array.from(new Set(pipelines.filter((p) => selectedPlanes.includes(p.data_plane)).map((p) => p.destination))).sort();
 }

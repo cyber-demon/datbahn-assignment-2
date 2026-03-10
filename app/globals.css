@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #050A18;
+  --bg-secondary: #0B1224;
+  --bg-tertiary: #111B33;
+  --accent: #00D4FF;
+  --purple: #7C3AED;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: #F1F5F9;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Recharts: force light text in tooltips and legends (default is black) */
+.recharts-default-tooltip {
+  color: #F1F5F9 !important;
+  padding: 8px 12px !important;
+}
+.recharts-default-tooltip .recharts-tooltip-label {
+  color: #94A3B8 !important;
+}
+.recharts-default-tooltip .recharts-tooltip-item {
+  color: #F1F5F9 !important;
+}
+.recharts-legend-wrapper .recharts-legend-item-text,
+.recharts-legend-item-text {
+  fill: #94A3B8 !important;
+}
+/* Ensure chart tooltip payload text is visible on dark bg */
+.recharts-tooltip-wrapper {
+  color: #F1F5F9 !important;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}

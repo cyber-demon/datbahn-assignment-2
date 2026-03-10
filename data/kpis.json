@@ -1,0 +1,26 @@
+{
+  "current_period": {
+    "gross_margin_pct": 72.4,
+    "cost_per_gb_normalized": 0.0847,
+    "total_volume_tb": 284.6,
+    "monthly_revenue": 1250000
+  },
+  "prior_period": {
+    "gross_margin_pct": 69.1,
+    "cost_per_gb_normalized": 0.0923,
+    "total_volume_tb": 241.2,
+    "monthly_revenue": 1080000
+  },
+  "sparkline_6mo": {
+    "gross_margin": [65.2, 67.8, 68.5, 69.1, 71.0, 72.4],
+    "cost_per_gb": [0.112, 0.104, 0.098, 0.092, 0.089, 0.085],
+    "volume_tb": [180, 195, 212, 241, 262, 285],
+    "revenue": [820000, 890000, 960000, 1080000, 1160000, 1250000]
+  },
+  "scaling_narrative": {
+    "cost_change_pct": 12.0,
+    "volume_change_pct": 18.0,
+    "unit_cost_change_pct": -8.2,
+    "assessment": "healthy"
+  }
+}

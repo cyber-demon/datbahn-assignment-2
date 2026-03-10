@@ -1,0 +1,19 @@
+{
+  "monthly": [
+    { "month": "2025-10", "label": "Oct", "cloud": 142, "licenses": 38, "support": 52, "devops": 44, "total": 276, "revenue": 820, "cogs_pct": 33.7 },
+    { "month": "2025-11", "label": "Nov", "cloud": 151, "licenses": 39, "support": 54, "devops": 45, "total": 289, "revenue": 890, "cogs_pct": 32.5 },
+    { "month": "2025-12", "label": "Dec", "cloud": 158, "licenses": 40, "support": 55, "devops": 47, "total": 300, "revenue": 960, "cogs_pct": 31.3 },
+    { "month": "2026-01", "label": "Jan", "cloud": 168, "licenses": 41, "support": 57, "devops": 48, "total": 314, "revenue": 1080, "cogs_pct": 29.1 },
+    { "month": "2026-02", "label": "Feb", "cloud": 175, "licenses": 42, "support": 58, "devops": 49, "total": 324, "revenue": 1160, "cogs_pct": 27.9 },
+    { "month": "2026-03", "label": "Mar", "cloud": 182, "licenses": 43, "support": 60, "devops": 50, "total": 335, "revenue": 1250, "cogs_pct": 26.8, "anomaly": true }
+  ],
+  "shared_costs": {
+    "total_k": 98,
+    "methods": {
+      "volume_weighted": { "security": 43.8, "observability": 19.2, "application": 12.5, "iot_ot": 22.5 },
+      "even_split": { "security": 24.5, "observability": 24.5, "application": 24.5, "iot_ot": 24.5 },
+      "usage_based": { "security": 46.2, "observability": 18.5, "application": 11.0, "iot_ot": 22.3 }
+    },
+    "unallocated_pct": 12.4
+  }
+}

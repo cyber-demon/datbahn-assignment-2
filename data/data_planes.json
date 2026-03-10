@@ -1,0 +1,80 @@
+{
+  "planes": [
+    {
+      "id": "security",
+      "name": "Security",
+      "description": "SIEM, threat, identity, endpoint, and firewall telemetry",
+      "color": "#00D4FF",
+      "icon": "shield",
+      "revenue_share_pct": 48,
+      "pipeline_count": 5,
+      "budget_k": 175,
+      "budget_used_k": 168,
+      "monthly": [
+        { "month": "Oct", "revenue": 394, "cogs": 118, "shared": 15.6, "payroll": 24, "gm_pct": 70.1, "gm_payroll_pct": 60.2, "volume_tb": 116, "events_b": 18.4 },
+        { "month": "Nov", "revenue": 427, "cogs": 123, "shared": 16.0, "payroll": 24.5, "gm_pct": 71.2, "gm_payroll_pct": 61.5, "volume_tb": 124, "events_b": 19.8 },
+        { "month": "Dec", "revenue": 461, "cogs": 128, "shared": 16.4, "payroll": 25, "gm_pct": 72.2, "gm_payroll_pct": 62.8, "volume_tb": 132, "events_b": 21.1 },
+        { "month": "Jan", "revenue": 518, "cogs": 138, "shared": 17.0, "payroll": 25.5, "gm_pct": 73.4, "gm_payroll_pct": 64.2, "volume_tb": 145, "events_b": 23.2 },
+        { "month": "Feb", "revenue": 557, "cogs": 143, "shared": 17.4, "payroll": 26, "gm_pct": 74.3, "gm_payroll_pct": 65.4, "volume_tb": 153, "events_b": 24.5 },
+        { "month": "Mar", "revenue": 600, "cogs": 148, "shared": 17.8, "payroll": 26.5, "gm_pct": 75.3, "gm_payroll_pct": 66.9, "volume_tb": 162, "events_b": 25.9 }
+      ]
+    },
+    {
+      "id": "observability",
+      "name": "Observability",
+      "description": "Infrastructure monitoring, APM, metrics, traces, and operational logs",
+      "color": "#38BDF8",
+      "icon": "activity",
+      "revenue_share_pct": 22,
+      "pipeline_count": 3,
+      "budget_k": 78,
+      "budget_used_k": 72,
+      "monthly": [
+        { "month": "Oct", "revenue": 180, "cogs": 55, "shared": 7.2, "payroll": 12, "gm_pct": 69.4, "gm_payroll_pct": 58.8, "volume_tb": 48, "events_b": 6.2 },
+        { "month": "Nov", "revenue": 196, "cogs": 58, "shared": 7.4, "payroll": 12.2, "gm_pct": 70.4, "gm_payroll_pct": 60.2, "volume_tb": 52, "events_b": 6.7 },
+        { "month": "Dec", "revenue": 211, "cogs": 61, "shared": 7.6, "payroll": 12.5, "gm_pct": 71.1, "gm_payroll_pct": 61.2, "volume_tb": 55, "events_b": 7.1 },
+        { "month": "Jan", "revenue": 238, "cogs": 66, "shared": 7.9, "payroll": 12.8, "gm_pct": 72.3, "gm_payroll_pct": 63.5, "volume_tb": 61, "events_b": 7.9 },
+        { "month": "Feb", "revenue": 255, "cogs": 69, "shared": 8.1, "payroll": 13, "gm_pct": 72.9, "gm_payroll_pct": 64.7, "volume_tb": 65, "events_b": 8.4 },
+        { "month": "Mar", "revenue": 275, "cogs": 72, "shared": 8.4, "payroll": 13.2, "gm_pct": 73.8, "gm_payroll_pct": 65.9, "volume_tb": 69, "events_b": 8.9 }
+      ]
+    },
+    {
+      "id": "application",
+      "name": "Application",
+      "description": "Business transaction data, user activity, API events, SaaS telemetry",
+      "color": "#A78BFA",
+      "icon": "layers",
+      "revenue_share_pct": 14,
+      "pipeline_count": 2,
+      "budget_k": 48,
+      "budget_used_k": 45,
+      "monthly": [
+        { "month": "Oct", "revenue": 115, "cogs": 40, "shared": 4.6, "payroll": 10, "gm_pct": 65.2, "gm_payroll_pct": 52.5, "volume_tb": 22, "events_b": 2.8 },
+        { "month": "Nov", "revenue": 125, "cogs": 42, "shared": 4.7, "payroll": 10.2, "gm_pct": 66.4, "gm_payroll_pct": 54.5, "volume_tb": 24, "events_b": 3.1 },
+        { "month": "Dec", "revenue": 134, "cogs": 44, "shared": 4.9, "payroll": 10.5, "gm_pct": 67.2, "gm_payroll_pct": 55.7, "volume_tb": 26, "events_b": 3.3 },
+        { "month": "Jan", "revenue": 151, "cogs": 48, "shared": 5.1, "payroll": 10.8, "gm_pct": 68.2, "gm_payroll_pct": 57.7, "volume_tb": 29, "events_b": 3.7 },
+        { "month": "Feb", "revenue": 162, "cogs": 50, "shared": 5.2, "payroll": 11, "gm_pct": 69.1, "gm_payroll_pct": 59.1, "volume_tb": 31, "events_b": 4.0 },
+        { "month": "Mar", "revenue": 175, "cogs": 53, "shared": 5.4, "payroll": 11.2, "gm_pct": 69.7, "gm_payroll_pct": 60.3, "volume_tb": 33, "events_b": 4.3 }
+      ]
+    },
+    {
+      "id": "iot_ot",
+      "name": "IoT/OT",
+      "description": "Sensor data, PLCs, SCADA systems, industrial OT, edge device telemetry",
+      "color": "#F59E0B",
+      "icon": "cpu",
+      "revenue_share_pct": 16,
+      "pipeline_count": 2,
+      "budget_k": 55,
+      "budget_used_k": 50,
+      "monthly": [
+        { "month": "Oct", "revenue": 131, "cogs": 47, "shared": 4.6, "payroll": 12, "gm_pct": 64.1, "gm_payroll_pct": 51.5, "volume_tb": 54, "events_b": 34.2 },
+        { "month": "Nov", "revenue": 142, "cogs": 50, "shared": 4.7, "payroll": 12.2, "gm_pct": 64.8, "gm_payroll_pct": 52.9, "volume_tb": 59, "events_b": 37.4 },
+        { "month": "Dec", "revenue": 154, "cogs": 53, "shared": 4.9, "payroll": 12.5, "gm_pct": 65.6, "gm_payroll_pct": 54.3, "volume_tb": 64, "events_b": 40.6 },
+        { "month": "Jan", "revenue": 173, "cogs": 58, "shared": 5.0, "payroll": 12.8, "gm_pct": 66.5, "gm_payroll_pct": 56.2, "volume_tb": 70, "events_b": 44.4 },
+        { "month": "Feb", "revenue": 186, "cogs": 62, "shared": 5.2, "payroll": 13, "gm_pct": 66.7, "gm_payroll_pct": 56.8, "volume_tb": 74, "events_b": 46.9 },
+        { "month": "Mar", "revenue": 200, "cogs": 65, "shared": 5.4, "payroll": 13.2, "gm_pct": 67.5, "gm_payroll_pct": 58.2, "volume_tb": 78, "events_b": 49.5 }
+      ]
+    }
+  ]
+}

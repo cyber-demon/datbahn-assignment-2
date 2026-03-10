@@ -1,0 +1,19 @@
+{
+  "steps": [
+    { "name": "Revenue", "value": 1250, "base": 0, "type": "positive" },
+    { "name": "Cloud Infra", "value": -182, "base": 1068, "type": "negative" },
+    { "name": "Licenses", "value": -43, "base": 1025, "type": "negative" },
+    { "name": "Support", "value": -60, "base": 965, "type": "negative" },
+    { "name": "DevOps", "value": -50, "base": 915, "type": "negative" },
+    { "name": "Gross Profit", "value": 915, "base": 0, "type": "subtotal" },
+    { "name": "Shared Costs", "value": -98, "base": 817, "type": "allocation" },
+    { "name": "Payroll", "value": -86, "base": 731, "type": "allocation" },
+    { "name": "Net Margin", "value": 731, "base": 0, "type": "total" }
+  ],
+  "summary": {
+    "gross_profit_k": 915,
+    "gross_profit_pct": 73.2,
+    "net_margin_k": 731,
+    "net_margin_pct": 58.5
+  }
+}

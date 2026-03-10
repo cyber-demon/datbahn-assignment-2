@@ -1,0 +1,56 @@
+{
+  "notifications": [
+    {
+      "id": "notif-weekly",
+      "name": "Weekly Digest",
+      "frequency": "weekly",
+      "schedule": "Every Monday 9:00 AM",
+      "channel": "#leadership",
+      "channelType": "slack",
+      "status": "active",
+      "audience": "Leadership",
+      "view": "finance",
+      "lastSent": "2 days ago",
+      "nextSend": "Mon, Mar 9"
+    },
+    {
+      "id": "notif-monthly",
+      "name": "Monthly Margin Report",
+      "frequency": "monthly",
+      "schedule": "1st of each month",
+      "channel": "finance@databahn.ai, ceo@databahn.ai",
+      "channelType": "email",
+      "status": "active",
+      "audience": "Finance + CEO",
+      "view": "finance",
+      "lastSent": "5 days ago",
+      "nextSend": "Apr 1"
+    },
+    {
+      "id": "notif-anomaly",
+      "name": "Pipeline Anomaly Alerts",
+      "frequency": "realtime",
+      "schedule": "Real-time (within 1 hour)",
+      "channel": "#eng-cost-alerts",
+      "channelType": "slack",
+      "status": "active",
+      "audience": "Engineering",
+      "view": "engineering",
+      "lastSent": "4 hours ago",
+      "nextSend": "On detection"
+    },
+    {
+      "id": "notif-board",
+      "name": "Quarterly Board Pack",
+      "frequency": "quarterly",
+      "schedule": "1st of Jan, Apr, Jul, Oct",
+      "channel": "board@databahn.ai",
+      "channelType": "email",
+      "status": "draft",
+      "audience": "Board + Investors",
+      "view": "board",
+      "lastSent": "Not yet sent",
+      "nextSend": "Apr 1 (draft)"
+    }
+  ]
+}
